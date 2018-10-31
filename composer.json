@@ -1,0 +1,22 @@
+{
+    "name": "mindongji/qh-qr-code-reader",
+    "description": "php-qrcode-detector-decoder improve",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mindong.ji",
+            "email": "285821477@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+          "MGQrCodeReader\\": "MGQrCodeReader"
+        }
+      }
+}
